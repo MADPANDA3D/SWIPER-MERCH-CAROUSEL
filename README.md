@@ -7,7 +7,7 @@
 [![Demo](https://img.shields.io/badge/Live-Demo-orange.svg)](https://github.com/yourusername/swiper-merch-carousel)
 
 <p align="center">
-  <img src="./assets/demo.gif" alt="Swiper Merchandise Carousel Demo" width="600px" />
+  <img src="./assets/gifs/download.gif" alt="Swiper Merchandise Carousel Demo" width="800px" />
 </p>
 
 ## 🚀 Features
@@ -20,6 +20,13 @@
 - **Accessibility** - Keyboard navigation and ARIA attributes included
 - **Lightweight** - Minimal code footprint for optimal performance
 - **SEO Friendly** - Properly structured content for search engines
+
+## 📸 Showcase
+
+<div align="center">
+  <img src="./assets/screenshots/screenshot_1.png" alt="Watch Product Display" width="400px" />
+  <img src="./assets/screenshots/screenshot_2.png" alt="Apparel Carousel" width="400px" />
+</div>
 
 ## 🛠️ Quick Start
 
@@ -74,6 +81,10 @@
 ## 🎨 Customization
 
 For detailed customization options, refer to the [Customization Guide](./docs/customization-guide.md).
+
+<p align="center">
+  <img src="./assets/screenshots/screenshot_3.png" alt="Embedding Code Example" width="400px" />
+</p>
 
 Quick customization points:
 
