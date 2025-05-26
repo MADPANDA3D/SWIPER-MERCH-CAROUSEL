@@ -7,7 +7,7 @@
 [![Demo](https://img.shields.io/badge/Live-Demo-orange.svg)](https://github.com/yourusername/swiper-merch-carousel)
 
 <p align="center">
-  <img src="./assets/gifs/download.gif" alt="Swiper Merchandise Carousel Demo" width="800px" />
+  <img src="./assets/demo.gif" alt="Swiper Merchandise Carousel Demo" width="800px" />
 </p>
 
 ## 🚀 Features
@@ -23,10 +23,10 @@
 
 ## 📸 Showcase
 
-<div align="center">
-  <img src="./assets/screenshots/screenshot_1.png" alt="Watch Product Display" width="400px" />
-  <img src="./assets/screenshots/screenshot_2.png" alt="Apparel Carousel" width="400px" />
-</div>
+![Demo GIF](./assets/demo.gif)
+
+![Base Carousel](./assets/screenshots/base-carousel.png)
+![Coverflow Carousel](./assets/screenshots/stacked-coverflow.png)
 
 ## 🛠️ Quick Start
 
