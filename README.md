@@ -12,7 +12,6 @@ A plug-and-play product carousel built with SwiperJS v11. Static HTML/CSS/JS, no
 
 ## Screenshots
 
-![Demo GIF](https://raw.githubusercontent.com/MADPANDA3D/SWIPER-MERCH-CAROUSEL/main/assets/demo.gif)
 ![Base Carousel](https://raw.githubusercontent.com/MADPANDA3D/SWIPER-MERCH-CAROUSEL/main/assets/screenshots/base-carousel.png)
 ![Coverflow Carousel](https://raw.githubusercontent.com/MADPANDA3D/SWIPER-MERCH-CAROUSEL/main/assets/screenshots/stacked-coverflow.png)
 
