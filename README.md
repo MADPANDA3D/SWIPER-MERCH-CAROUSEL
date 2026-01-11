@@ -1,10 +1,16 @@
-# Swiper Merchandise Carousel
+<p align="center">
+  <img src="./assets/brand/swiper-merch-carousel-header.jpg" alt="Swiper Merchandise Carousel header" />
+</p>
 
-A plug-and-play product carousel built with SwiperJS v11. Static HTML/CSS/JS, no build step.
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT License" /></a>
+  <a href="https://swiperjs.com/"><img src="https://img.shields.io/badge/SwiperJS-v11-green.svg" alt="SwiperJS v11" /></a>
+  <a href="https://github.com/MADPANDA3D"><img src="https://img.shields.io/badge/Built%20by-MADPANDA3D-black?style=flat-square" alt="Built by MADPANDA3D" /></a>
+</p>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![SwiperJS: v11](https://img.shields.io/badge/SwiperJS-v11-green.svg)](https://swiperjs.com/)
-[![Built by MADPANDA3D](https://img.shields.io/badge/Built%20by-MADPANDA3D-black?style=flat-square)](https://github.com/MADPANDA3D)
+<h1 align="center">Swiper Merchandise Carousel</h1>
+
+<p align="center">A plug-and-play product carousel built with SwiperJS v11. Static HTML/CSS/JS, no build step.</p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/MADPANDA3D/SWIPER-MERCH-CAROUSEL/main/assets/demo.gif" width="800" alt="Swiper Merchandise Carousel demo" />
