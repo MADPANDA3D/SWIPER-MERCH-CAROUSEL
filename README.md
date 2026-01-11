@@ -12,10 +12,9 @@ A plug-and-play product carousel built with SwiperJS v11. Static HTML/CSS/JS, no
 
 ## Screenshots
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/MADPANDA3D/QDRANT-MCP/main/assets/brand/header.jpg" width="800" alt="Sample layout screenshot (placeholder)" />
-</p>
-<!-- Placeholder image from another repo. Replace with your own screenshot. -->
+![Demo GIF](https://raw.githubusercontent.com/MADPANDA3D/SWIPER-MERCH-CAROUSEL/main/assets/demo.gif)
+![Base Carousel](https://raw.githubusercontent.com/MADPANDA3D/SWIPER-MERCH-CAROUSEL/main/assets/screenshots/base-carousel.png)
+![Coverflow Carousel](https://raw.githubusercontent.com/MADPANDA3D/SWIPER-MERCH-CAROUSEL/main/assets/screenshots/stacked-coverflow.png)
 
 ## Overview
 
