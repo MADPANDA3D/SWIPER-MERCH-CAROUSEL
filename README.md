@@ -1,140 +1,133 @@
-# 🎠 Swiper Merchandise Carousel
+# Swiper Merchandise Carousel
 
-> A modular, ready-to-use product carousel template built with SwiperJS v11
+A plug-and-play product carousel built with SwiperJS v11. Static HTML/CSS/JS, no build step.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![SwiperJS: v11](https://img.shields.io/badge/SwiperJS-v11-green.svg)](https://swiperjs.com/)
-[![Demo](https://img.shields.io/badge/Live-Demo-orange.svg)](https://github.com/yourusername/swiper-merch-carousel)
 
 <p align="center">
-  <img src="./assets/demo.gif" alt="Swiper Merchandise Carousel Demo" width="800px" />
+  <img src="https://raw.githubusercontent.com/MADPANDA3D/SWIPER-MERCH-CAROUSEL/main/assets/demo.gif" width="800" alt="Swiper Merchandise Carousel demo" />
 </p>
 
-## 🚀 Features
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MADPANDA3D/QDRANT-MCP/main/assets/brand/header.jpg" width="800" alt="Placeholder screenshot (replace)" />
+  <br />
+  <em>Placeholder image from another repo. Replace with your own screenshot.</em>
+</p>
 
-- **Zero Installation** - Uses SwiperJS via CDN, no npm/build process required
-- **Coverflow Effect** - Stunning 3D rotation effect with depth and perspective
-- **Mobile Friendly** - Fully responsive design that works on all devices
-- **Easy to Customize** - Simple HTML/CSS structure with inline styles for quick edits
-- **Smart Autoplay** - Pauses on interaction and resumes automatically
-- **Accessibility** - Keyboard navigation and ARIA attributes included
-- **Lightweight** - Minimal code footprint for optimal performance
-- **SEO Friendly** - Properly structured content for search engines
+## Overview
 
-## 📸 Showcase
+This repo provides a ready-to-embed carousel for merch or product showcases. It uses SwiperJS via CDN and focuses on a clean, responsive layout with a coverflow effect.
 
-![Demo GIF](./assets/demo.gif)
+## Status
 
-![Base Carousel](./assets/screenshots/base-carousel.png)
-![Coverflow Carousel](./assets/screenshots/stacked-coverflow.png)
+- Stage: stable
+- Maintainer: MADPANDA3D
+- Support: GitHub issues
 
-## 🛠️ Quick Start
+## Quick Start
 
-1. **Clone this repository**:
-   ```bash
-   git clone https://github.com/yourusername/swiper-merch-carousel.git
-   ```
+```bash
+# 1) Clone
 
-2. **Open the project**:
-   ```bash
-   cd swiper-merch-carousel
-   ```
+```
 
-3. **Customize with your products**:
-   - Replace placeholder images in `index.html` with your product images
-   - Adjust styling as needed (colors, sizes, etc.)
-   - Modify coverflow effect parameters for your desired look
+```bash
+git clone https://github.com/MADPANDA3D/SWIPER-MERCH-CAROUSEL.git
+cd SWIPER-MERCH-CAROUSEL
+```
 
-4. **Test locally**:
-   - Open `index.html` in your browser
-   - Test navigation, autoplay, and responsive behavior
+```bash
+# 2) Run a local server (recommended)
+python3 -m http.server 8000
+```
 
-5. **Deploy to your website**:
-   - Upload the files to your web server
-   - Or use GitHub Pages for free hosting
+Open `http://localhost:8000` in your browser.
 
-## 📋 Usage Example
+## Features
+
+- Zero install: uses SwiperJS CDN
+- Coverflow effect with depth and perspective
+- Responsive layout for mobile and desktop
+- Keyboard navigation and ARIA attributes
+- Lightweight HTML/CSS structure for fast edits
+
+## Tech Stack
+
+- Runtime: Static HTML/CSS/JS
+- UI: SwiperJS v11 (CDN)
+- Hosting: Any static host
+
+## Architecture
+
+Single-page static layout with a Swiper instance initialized in `index.html`.
+
+## Configuration
+
+No environment variables required. Customize directly in `index.html`:
+
+- Swap product images
+- Adjust coverflow settings
+- Tune autoplay speed
+- Change colors and layout
+
+## Usage
+
+Embed snippet (example):
 
 ```html
-<!-- Outer Container -->
-<div style="width: 100%; background-color: #1C3C93; padding: 60px 0; box-sizing: border-box;">
-  <div class="swiper-container" style="max-width: 900px; margin: auto; position: relative;">
-    <div class="swiper-wrapper" style="align-items: center;">
-
-      <!-- Product Slides -->
-      <div class="swiper-slide"><img src="https://example.com/products/item1.jpg" style="width:65%; border-radius: 10px; display: block; margin: auto;" /></div>
-      <div class="swiper-slide"><img src="https://example.com/products/item2.jpg" style="width:65%; border-radius: 10px; display: block; margin: auto;" /></div>
-      <!-- Add more slides as needed -->
-
-    </div>
-
-    <!-- Navigation Elements -->
-    <div style="display: flex; justify-content: center; align-items: center; gap: 20px; margin-top: 30px;">
-      <div class="swiper-button-prev" style="position: static; width: 32px; height: 32px; color: white; cursor: pointer;"></div>
-      <div class="swiper-pagination" style="position: static;"></div>
-      <div class="swiper-button-next" style="position: static; width: 32px; height: 32px; color: white; cursor: pointer;"></div>
-    </div>
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="/assets/products/item-1.jpg" alt="Product 1" /></div>
+    <div class="swiper-slide"><img src="/assets/products/item-2.jpg" alt="Product 2" /></div>
   </div>
+  <div class="swiper-pagination"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
 </div>
 ```
 
-## 🎨 Customization
+## Project Structure
 
-For detailed customization options, refer to the [Customization Guide](./docs/customization-guide.md).
+```
+.
+├── assets/
+├── docs/
+├── index.html
+└── README.md
+```
 
-<p align="center">
-  <img src="./assets/screenshots/screenshot_3.png" alt="Embedding Code Example" width="400px" />
-</p>
+## Development
 
-Quick customization points:
+Edit `index.html` and refresh your browser. No build step required.
 
-- **Background Color**: Change the outer container's `background-color`
-- **Container Width**: Adjust the `max-width` of the swiper container
-- **Image Size**: Modify the `width` percentage of images
-- **Transition Speed**: Update the `speed` parameter in the Swiper config
-- **Effect Parameters**: Customize the `coverflowEffect` object properties
-- **Autoplay Timing**: Change the `delay` value in the autoplay settings
+## Testing
 
-## 📱 Browser Compatibility
+No automated tests.
 
-- Chrome 49+
-- Firefox 52+
-- Safari 9.1+
-- Edge 14+
-- Opera 36+
-- iOS Safari 9.3+
-- Android Browser 4.4+
-- Chrome for Android 103+
+## Deployment
 
-## 🛣️ Roadmap
+- GitHub Pages, Netlify, Vercel, or any static host
+- Upload the project files and set `index.html` as the entry point
 
-- [ ] Add product info overlay option
-- [ ] Create multiple theme variations
-- [ ] Add click-to-zoom functionality
-- [ ] Implement lazy loading for better performance
-- [ ] Create npm package version with bundled components
+## Roadmap
 
-## 🤝 Contributing
+- Add product info overlay option
+- Add click-to-zoom
+- Add lazy loading for large catalogs
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+## Contributing
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+1. Fork the repo
+2. Create a branch: `git checkout -b feature/name`
+3. Commit: `git commit -m "Add feature"`
+4. Push: `git push origin feature/name`
+5. Open a PR
 
-## 📄 License
+## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT.
 
-## 🙏 Acknowledgments
+## Contact
 
-- [SwiperJS](https://swiperjs.com/) for the amazing carousel library
-- [Vladimir Kharlampidi](https://github.com/nolimits4web) for creating Swiper
-
----
-
-<p align="center">
-  Made with ❤️ for the open-source community
-</p>
+Open an issue in `MADPANDA3D/SWIPER-MERCH-CAROUSEL`.
