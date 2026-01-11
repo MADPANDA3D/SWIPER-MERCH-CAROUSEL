@@ -173,8 +173,6 @@ Using these links helps support continued development.
 
 Open an issue in `MADPANDA3D/SWIPER-MERCH-CAROUSEL`.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/MADPANDA3D/QDRANT-MCP/main/assets/brand/logo.jpeg" width="120" alt="MADPANDA3D logo" />
-  <br />
-  <strong>MADPANDA3D</strong>
-</p>
+| ![MADPANDA3D logo](https://raw.githubusercontent.com/MADPANDA3D/QDRANT-MCP/main/assets/brand/logo.jpeg) |
+|:--:|
+| **MADPANDA3D** |
